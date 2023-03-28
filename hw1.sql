@@ -1,7 +1,7 @@
 -- Question 1: How many actors there with last name 'Walhberg'?
 select last_name 
 from actor 
-where last_name like 'W__%berg';
+where last_name like 'Walhberg';
 
 -- Question 2: How many payments were made between $3.99 and $5.99?
 select count(amount) 
